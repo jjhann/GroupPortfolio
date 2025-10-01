@@ -1,0 +1,572 @@
+body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding-top: 95px;
+    }
+    
+    header {
+      background: #033;
+      padding: 25px 40px;
+      color: white;
+      display: flex;
+      justify-content: flex-end;
+      font-size: 18px;
+
+      position: fixed;     
+      top: 0;              
+      width: 96%;        
+    }
+    
+    header nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+    
+    .title {
+      padding: 40px;
+    }
+
+    .title h1 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 2.5em;
+      font-weight: 700;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    
+    .with-image {
+      display: flex;
+      align-items: center;      
+      justify-content: center;  
+      gap: 30px;
+
+      max-width: 800px;        
+      margin: 0 auto;          
+      padding: 30px;           
+    }
+
+    .with-image img {
+      width: 250px;
+      height: auto;
+      border-radius: 18px;
+    }
+
+    .welcome h2{
+      text-align: center;
+    }
+
+    .welcome p{
+      font-family: 'Open Sans', sans-serif;
+      line-height: 1.6;
+      text-align: justify;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    footer {
+      background: #033;
+      color: white;
+      text-align: center;
+      padding: 5px 0;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+      font-size: 12px;
+    }
+
+.about-us {
+  background-color: white; 
+  color: #333; 
+  min-height: 100vh; 
+  padding-bottom: 40px;
+}
+
+.members {
+      display: flex;
+      flex-direction: column; 
+      align-items: center;
+    }
+
+    .member {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 20px;
+      padding: 20px;
+      background-color: #f9f9f9; 
+      border-radius: 5px; 
+      width: 80%; 
+      max-width: 600px; 
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    }
+
+    .member img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 10px;
+      border: 2px solid black; 
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    }
+    
+    .member h3 {
+      font-size: 1.2em; 
+      font-weight: 600; 
+      margin-bottom: 5px;
+      color: #333; 
+      text-align: center;
+    }
+    
+    .member p {
+      font-style: italic;
+      color: #555; 
+      margin-bottom: 10px;
+      text-align: center;
+      font-size: 0.9em;
+    }
+    
+    .btn {
+      background-color: #e67e22;
+      color: white;
+      padding: 8px 15px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 0.85em; 
+      font-weight: 500; 
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); 
+    }
+
+.btn:hover {
+  background-color: #d35400;
+}
+
+.ruiz-vitae {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding-top: 90px;
+  padding-bottom: 70px;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.ruiz-container {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 500px;
+  margin: 20px;
+  padding: 30px;;
+  border-radius: 8px;
+}
+
+.ruiz-header {
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.ruiz-header img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.ruiz-section {
+  margin-top: 20px;
+}
+
+.ruiz-section-title {
+  color: #333;
+  border-bottom: 2px solid #033;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.ruiz-about-me-text {
+  line-height: 1.6;
+  color: #555;
+}
+
+.ruiz-education-item, .experience-item {
+  margin-bottom: 15px;
+}
+
+.ruiz-education-item h3, .ruiz-experience-item h3 {
+  color: #033;
+  margin-bottom: 5px;
+}
+
+.ruiz-skills-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ruiz-skills-list li {
+  background-color: #033;
+  color: #fff;
+  padding: 8px 12px;
+  margin: 5px;
+  border-radius: 5px;
+  }
+
+.banaticla-vitae {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding-top: 90px;
+  padding-bottom: 70px;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.banaticla-container {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 500px;
+  margin: 20px;
+  padding: 30px;;
+  border-radius: 8px;
+}
+
+.banaticla-header {
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.banaticla-header img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.banaticla-section {
+  margin-top: 20px;
+}
+
+.banaticla-section-title {
+  color: #333;
+  border-bottom: 2px solid #033;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.banaticla-about-me-text {
+  line-height: 1.6;
+  color: #555;
+}
+
+.banaticla-education-item, .banaticla-experience-item {
+  margin-bottom: 15px;
+}
+
+.banaticla-education-item h3, .banaticla-experience-item h3 {
+  color: #033;
+  margin-bottom: 5px;
+}
+
+.banaticla-skills-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.banaticla-skills-list li {
+  background-color: #033;
+  color: #fff;
+  padding: 8px 12px;
+  margin: 5px;
+  border-radius: 5px;
+  }
+
+.cruz-vitae {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding-top: 90px;
+  padding-bottom: 70px;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.cruz-container {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 500px;
+  margin: 20px;
+  padding: 30px;;
+  border-radius: 8px;
+}
+
+.cruz-header {
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.cruz-header img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.cruz-section {
+  margin-top: 20px;
+}
+
+.cruz-section-title {
+  color: #333;
+  border-bottom: 2px solid #033;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.cruz-about-me-text {
+  line-height: 1.6;
+  color: #555;
+}
+
+.cruz-education-item, .cruz-experience-item {
+  margin-bottom: 15px;
+}
+
+.cruz-education-item h3, .cruz-experience-item h3 {
+  color: #033;
+  margin-bottom: 5px;
+}
+
+.cruz-skills-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cruz-skills-list li {
+  background-color: #033;
+  color: #fff;
+  padding: 8px 12px;
+  margin: 5px;
+  border-radius: 5px;
+  }
+
+.macatimpag-vitae {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding-top: 90px;
+  padding-bottom: 70px;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.macatimpag-container {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 500px;
+  margin: 20px;
+  padding: 30px;;
+  border-radius: 8px;
+}
+
+.macatimpag-header {
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.macatimpag-header img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.macatimpag-section {
+  margin-top: 20px;
+}
+
+.macatimpag-section-title {
+  color: #333;
+  border-bottom: 2px solid #033;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.macatimpag-about-me-text {
+  line-height: 1.6;
+  color: #555;
+}
+
+.macatimpag-education-item, .macatimpag-experience-item {
+  margin-bottom: 15px;
+}
+
+.macatimpag-education-item h3, .macatimpag-experience-item h3 {
+  color: #033;
+  margin-bottom: 5px;
+}
+
+.macatimpag-skills-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.macatimpag-skills-list li {
+  background-color: #033;
+  color: #fff;
+  padding: 8px 12px;
+  margin: 5px;
+  border-radius: 5px;
+  }
+
+.turico-vitae {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding-top: 90px;
+  padding-bottom: 70px;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.turico-container {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 500px;
+  margin: 20px;
+  padding: 30px;;
+  border-radius: 8px;
+}
+
+.turico-header {
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.turico-header img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.turico-section {
+  margin-top: 20px;
+}
+
+.turico-section-title {
+  color: #333;
+  border-bottom: 2px solid #033;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.turico-about-me-text {
+  line-height: 1.6;
+  color: #555;
+}
+
+.turico-education-item, .turico-experience-item {
+  margin-bottom: 15px;
+}
+
+.turico-education-item h3, .turico-experience-item h3 {
+  color: #033;
+  margin-bottom: 5px;
+}
+
+.turico-skills-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.turico-skills-list li {
+  background-color: #033;
+  color: #fff;
+  padding: 8px 12px;
+  margin: 5px;
+  border-radius: 5px;
+  }
+
+.our-interest{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 100px;
+  background-color: #e6e6ff; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.our-interest-container {
+  width: 80%;
+  margin-top: 20px;
+  }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  }
+
+th, td {
+  text-align: center;
+  padding: 10px;
+  }
+
+.our-interest-member img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  }
+
+.interests {
+  list-style: none;
+  padding: 0;
+  }
+
+.interests li {
+  margin-bottom: 5px;
+  }
