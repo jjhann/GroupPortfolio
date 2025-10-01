@@ -542,11 +542,13 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: 100vh;
+  height: 100%;
+  justify-content: center;
 }
 
 .our-interest-container {
   width: 80%;
+  max-width: 1000px;
   margin-top: 20px;
   }
 
@@ -561,8 +563,8 @@ th, td {
   }
 
 .our-interest-member img {
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 10px;
